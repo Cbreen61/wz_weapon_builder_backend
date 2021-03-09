@@ -4,4 +4,5 @@
 # Examples:
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+#   Character.create(name: 'Luke', movie: movies.first)G
+Game.create(name: "War Zone", publisher:"Activision", image:"https://image.api.playstation.com/vulcan/img/rnd/202010/2321/QXm5Ob9MLo2YPVF1Xg4oBaCr.jpg?w=440")
