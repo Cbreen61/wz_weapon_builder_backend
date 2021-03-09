@@ -8,6 +8,7 @@ class CreateWeapons < ActiveRecord::Migration[6.1]
       t.string :attachment_3
       t.string :attachment_4
       t.string :attachment_5
+      t.belongs_to :category
 
       t.timestamps
     end
