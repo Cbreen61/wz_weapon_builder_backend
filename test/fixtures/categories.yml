@@ -1,9 +1,0 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-one:
-  weapon_tyype: MyString
-  image: MyString
-
-two:
-  weapon_tyype: MyString
-  image: MyString
