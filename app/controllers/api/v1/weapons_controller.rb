@@ -18,7 +18,7 @@ class Api::V1::WeaponsController < ApplicationController
     @weapon = Weapon.new(weapon_params)
 
     if @weapon.save
-      render json: @weapon, status: :created, location: @weapon
+      render json: @weapon, status: :accepted
     else
       render json: @weapon.errors, status: :unprocessable_entity
     end
